@@ -1,0 +1,74 @@
+/* mobile first design */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-size: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid darkgrey;
+
+}
+
+body {
+ text-align: center;
+ font-weight: 400;
+ font-size: 1rem;
+ line-height: 1.7;
+ color: Black;
+ padding: 1.875rem;
+}
+
+nav li {
+    list-style: none;
+    background: gray;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: right;
+}
+
+header {
+    background-color: lightgray;
+    padding: 5rem 10rem;
+    font-size: 1rem;
+}
+
+.bio,
+.projects,
+.contact {
+    font-size: 2rem;
+}
+
+.projects {
+    background-color: silver;
+    padding: 15rem 10rem;
+}
+
+footer {
+   background: gray;
+}
+
+div .links {
+  display: flex;
+  flex-direction: row;
+} 
+
+/* these will be icons */
+div li {
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.email,
+.linkedin,
+.twitter,
+.github {
+  background-repeat: no-repeat;
+  background-position: 10% 10px;
+}
